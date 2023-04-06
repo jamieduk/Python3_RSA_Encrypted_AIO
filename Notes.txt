@@ -1,0 +1,56 @@
+AIO.py  now does key gen enc and dec all in one!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+948 Chars (Max) Secure Messege Using 8192 Bit Key!
+
+Put your plain text message into a file called message.txt
+
+Give Exec Perms
+
+sudo chmod +x *.py
+
+run the AIO.py script
+
+./aio_4096.py
+
+
+
+Using This Program:
+Option 1 to Generate a key pair ( you swap the public key with your secure comms parter!
+KEEP YOUR PRIVATE KEY SAFE & SECURE DO NOT SHARE)!
+
+
+After you have each others public key you can enc and dec mesages!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+here's an example of how to use the 4096-bit RSA key pair generated in the previous example to encrypt and decrypt a message in Python3 using the cryptography library:
+
+To decrypt the message, we use the private_key.decrypt() method with the encrypted message as input. Note that we use the same padding scheme (OAEP with SHA256) for both encryption and decryption.
+
+Finally, we print the original message, the encrypted message, and the decrypted message to verify that the encryption and decryption worked correctly.
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~
+Depreciated:
+
+Key_Gen.py
+
+Sure, here's an example of how to generate a 4096-bit RSA key pair in Python3 using the cryptography library:
+
+In this example, we generate a new 4096-bit RSA key pair using the rsa.generate_private_key() method. We then save the private key and public key to separate PEM files using the serialization module.
+
+Note that this example does not demonstrate how to use the keys for encryption or decryption. To use the RSA keys for encryption or decryption, you would need to use the public_key or private_key objects and the appropriate methods provided by the cryptography library.
+
+
+if you not got the correct modules you will get an error, so install dependancies if required!
+to create a new key pair:
+
+./keypair_gen.py 
+
+
+
