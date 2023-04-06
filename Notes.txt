@@ -1,6 +1,14 @@
-AIO.py  now does key gen enc and dec all in one!
+Python3 RSA Crpto (c) J~Net 2023
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+jnet.sytes.net
+
+
+
+
+AIO.py now does key gen enc and dec all in one!
+
+clone https://github.com/jamieduk/Python3_RSA_Encrypted_AIO.git
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 948 Chars (Max) Secure Messege Using 8192 Bit Key!
 
